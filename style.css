@@ -1,0 +1,232 @@
+@media (max-width: 2280px) {
+    body {
+      background-color: rgb(127, 133, 138);
+      color: rgb(47, 73, 178);
+    }
+    .titleContainer{
+      border: solid rgb(2, 3, 3);
+      /* height: 20vh; */
+      margin: 1em;
+      font-size: 30px;
+      text-align: center;
+      font-style: italic;
+      font-weight: bold;
+    }
+    #A{
+      display: block;
+    }
+    #B{
+        display:none;
+    }
+    #C{
+        display:none;
+    } 
+   
+    .picContainer {
+      border: solid black;
+      height: 40vh;
+      background-image: url("https://i.ytimg.com/vi/5kozt0uDa4c/maxresdefault.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size:100% 100%;
+
+      /* transition-property: width;
+      transition-duration: 3s;
+      transition-timing-function:ease-in;
+      transition-delay: 1s;
+      opacity: 1;
+      transition: .5s ease; */
+
+    }
+
+    /* .picContainer:hover{
+      width: 1000px;
+      transition: 3s;
+      opacity: 0.3;
+    } */
+    .logo {
+      border: solid yellow;
+      height: 30vh;
+      width:30vw;
+      margin: 2em;
+    }
+    #Animals {
+      display:block;
+      display:flex;
+      margin-left:10px;
+      width: 30%;
+
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+
+    #Animals:hover{
+      transition: 3s;
+      color:rgb(53, 12, 94);
+      opacity: 0.3;
+      width:300px;
+    }
+
+    #Birds {
+      width: 30%;
+      display:none;
+    }
+    #SeaAnimals {
+      width: 30%;
+      display:none;
+    }
+  }
+  /* ------------Desktop  */
+  
+  @media (max-width: 1480px) {
+    body {
+      background-color: rgb(52, 125, 95);
+    }
+   
+    .titleContainer {
+        border: solid rgb(17, 14, 12);
+        /* height: 20vh; */
+        margin: 1em;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #A{
+        display:none;
+    }
+    #B{
+      display: block;
+    }
+    #C{
+        display:none;
+    } 
+ 
+    .picContainer {
+      border: solid black;
+      height: 40vh;
+      background-image: url("https://seas.umich.edu/sites/default/files/styles/news/public/2022-02/newseventsimage_1645625619609_mainnews2012_x1.jpeg?itok=rcgnPveV");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size:100% 100%;
+    }
+    .logo {
+      border: solid yellow;
+      height: 30vh;
+      width:30vw;
+      margin: 2em;
+    }
+    #Animals {
+      display:none;
+      width: 20%;
+    }
+
+    #Birds {
+      /* width: 250px; */
+      display:block;
+      width: 20%;
+
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    }
+    #SeaAnimals {
+      display:none;
+      width: 20%;
+    }
+    
+    #Birds:hover{
+      transition: 3s;
+      color:rgb(53, 12, 94);
+      opacity: 0.3;
+      width:300px;
+    }
+
+  /* ---------------Mid  */
+  
+  @media (max-width: 880px) {
+    body {
+      background-color: rgb(126, 217, 237);
+    }
+
+    .titleContainer{
+        border: solid rgb(17, 14, 12);
+        /* height: 20vh; */
+        margin: 1em;
+        font-size: 30px;
+        text-align: center;  
+    }
+    
+    #A{
+      display:none;
+    }
+    #B{
+      display:none;
+    } 
+    #C{
+      display: block;
+    }
+ 
+    .picContainer {
+      border: solid black;
+      height: 30vh;
+      background-image: url("https://getwallpapers.com/wallpaper/full/6/5/5/509518.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-size:100% 100%;
+    }
+    .logo {
+      border: solid yellow;
+      height: 40vh;
+      width:30vw;
+      margin: 2em;
+    }
+    #Animals {
+      display:none;
+      width: 20%;
+  
+    }
+    #Birds {
+      display:none;
+      width: 20%;
+    }
+    #SeaAnimals {
+      display:flex;
+      margin-left:10px;
+      width: 20%;
+
+      opacity: 1;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    }
+
+    #SeaAnimals:hover{
+      transition: 3s;
+      color:rgb(53, 12, 94);
+      opacity: 0.3;
+      width:300px;
+    }
+
+
+  /* -------------Mobile  */
+  
+  /* -------GeneralCSS */
+  
+  .icon {
+    height: 120px;
+    width: 120px;
+  }
+
+  .sectionDynamic{
+    border: solid black;
+    margin: 1em;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+
+
+  /* ---------------- */
